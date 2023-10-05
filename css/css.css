@@ -1,0 +1,81 @@
+
+
+.primerorodape
+{   
+    height: 360px;
+    background-image: url('../img/capa.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    
+
+}
+.divzinha2
+{   
+background-color: rgb(112,128,144);
+height: 60px;
+width: 898px;
+border: 1px solid black;
+
+}
+@keyframes rotate {
+	to {
+		--angle: 360deg;
+	}
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
+.rainbow-box {
+    --angle: 0deg;
+    border: 5px solid transparent;
+    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+    height: 924px;
+    width: 900px;
+    animation: 4s rotate linear infinite;
+  }
+.text
+{
+    line-height: 27px;
+    word-spacing: 28px;
+    color: white;
+    font-size: 17px;
+    font-weight:bold;
+    padding-left: 20px;
+    cursor:auto;
+}
+
+.divzinha3
+{
+    width: 898px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.text2
+{
+
+    color: white;
+    font-size: 27px;
+    font-weight:bold;
+   
+}
+.text3
+{
+
+    color: white;
+
+}
+.textcentralizadobranco
+{
+    line-height: 490px;
+    color: white;
+    text-align: center;
+    
+}
